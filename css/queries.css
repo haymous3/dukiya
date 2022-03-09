@@ -489,9 +489,10 @@
         position: relative;
         left: 5px;
     }
-    .icon{
+    .icon {
         position: relative;
         top: -27px;
+        z-index: 2;
         right: 25px;
     }
   
@@ -505,7 +506,7 @@
     }
     .display-one {  
         left: 0px;
-        z-index: -1;
+        z-index: 1;
        
     }
     .nav_bg {
